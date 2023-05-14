@@ -1,0 +1,43 @@
+.addStory{
+    position: absolute;
+    background-color: white;
+    z-index: 999999;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    width: 25%;
+    height: 25%;
+    padding: 50px;
+    border: 1px solid lightgray;
+
+    .addStoryButton{
+        position: absolute;
+        bottom: 20px;
+        right: 0;
+        left: 0;
+        margin: auto;
+        border: none;
+        background-color: #5271ff;
+        color: white;
+        padding: 10px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+        width: 80px;
+    }
+
+
+    .closeButton{
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        border: none;
+        background-color: #5271ff;
+        color: white;
+        padding: 10px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+        // width: 80px;
+    }
+}
